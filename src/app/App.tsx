@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { ThemeProvider } from "@mui/material";
 import { getTheme } from "../common/theme";
-import { Footer, Header, Main } from "../common/components";
+import { Footer, Header, Main } from "../common/layout";
 
 function App() {
   const theme = getTheme();

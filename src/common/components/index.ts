@@ -1,4 +1,4 @@
-export { Header } from "./Header/Header";
-export { Main } from "./Main/Main";
-export { Footer } from "./Footer/Footer";
+export { Header } from "../layout/Header/Header";
+export { Main } from "../layout/Main/Main";
+export { Footer } from "../layout/Footer/Footer";
 export { NavButton } from "./NavButton/NavButton";
