@@ -1,8 +1,10 @@
 import React from "react";
-import "./App.css";
+import "./App.module.css";
 import { ThemeProvider } from "@mui/material";
 import { getTheme } from "../common/theme";
 import { Footer, Header, Main } from "../common/layout";
+import { Carousel } from "../common/components";
+import s from "./App.module.css";
 
 function App() {
   const theme = getTheme();
@@ -16,6 +18,7 @@ function App() {
         }}
       >
         <Header />
+        <Carousel />
         <Main />
         <Footer />
       </div>

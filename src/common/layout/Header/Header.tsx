@@ -9,14 +9,19 @@ export const Header = () => {
   const navList = ["home", "movies", "serials", "cartoons"];
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: "transparent" }}>
+    <AppBar
+      position="static"
+      sx={{ backgroundColor: "transparent", boxShadow: "none" }}
+    >
       <Toolbar>
         <Container maxWidth={"lg"} sx={containerSx}>
-          <div>
-            {navList.map((itemItem) => (
-              <NavButton disableRipple>{itemItem}</NavButton>
+          <nav>
+            {navList.map((itemItem, i) => (
+              <NavButton key={i} disableRipple>
+                {itemItem}
+              </NavButton>
             ))}
-          </div>
+          </nav>
           <div>
             <NavButton startIcon={<SearchIcon />}>search</NavButton>
             <NavButton href="/" startIcon={<PermIdentityIcon />}>

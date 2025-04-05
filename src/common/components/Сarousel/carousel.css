@@ -1,0 +1,30 @@
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+.slider-wrapper {
+    position: relative;
+}
+.slider-image {
+    max-height:600px;
+}
+.slider-subText {
+    max-width: 340px;
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    color: #fff;
+}
+
+.slider-title {
+    margin: 0;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+.slider-desc {
+    margin-top: 8px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
