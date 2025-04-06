@@ -4,7 +4,6 @@ import { ThemeProvider } from "@mui/material";
 import { getTheme } from "../common/theme";
 import { Footer, Header, Main } from "../common/layout";
 import { Carousel } from "../common/components";
-import s from "./App.module.css";
 
 function App() {
   const theme = getTheme();
@@ -14,7 +13,7 @@ function App() {
         className="App"
         style={{
           backgroundColor: theme.palette.background.default,
-          height: "100vh",
+          minHeight: "100vh",
         }}
       >
         <Header />

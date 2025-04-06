@@ -52,7 +52,6 @@ const slides = [
 export const Carousel = () => {
   return (
     <Swiper
-      // spaceBetween={50}
       slidesPerView={1}
       loop={true}
       onSlideChange={() => console.log("slide change")}

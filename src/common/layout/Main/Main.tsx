@@ -1,8 +1,15 @@
-import { getTheme } from "../../theme";
 import { Container } from "@mui/material";
-import { Carousel } from "../../components";
 import React from "react";
 
 export const Main = () => {
-  return <Container component="main"></Container>;
+  return (
+    <Container
+      component="main"
+      // sx={{ backgroundColor: "transparent", boxShadow: "none" }}
+    >
+      <section>Trends today & Trend week</section>
+      <section>Latest trailers</section>
+      <section>Popular </section>
+    </Container>
+  );
 };
