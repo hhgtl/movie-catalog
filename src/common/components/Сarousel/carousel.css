@@ -4,9 +4,11 @@
 }
 .slider-wrapper {
     position: relative;
+
 }
 .slider-image {
-    max-height:640px;
+    border-radius: 25px;
+    max-height:620px;
 }
 .slider-subText {
     max-width: 340px;

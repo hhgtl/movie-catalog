@@ -30,19 +30,19 @@ const slides = [
     image: policeImg,
   },
   {
-    id: 4,
+    id: 5,
     title: "Lorem Ipsum",
     subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     image: policeImg,
   },
   {
-    id: 4,
+    id: 6,
     title: "Lorem Ipsum",
     subtitle: "Contact us for your next big project",
     image: policeImg,
   },
   {
-    id: 4,
+    id: 7,
     title: "Lorem Ipsum",
     subtitle: "Contact us for your next big project",
     image: policeImg,

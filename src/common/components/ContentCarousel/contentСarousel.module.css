@@ -1,0 +1,28 @@
+.contentSlider {
+    position: relative;
+}
+.contentSlider::after {
+    content: ' ';
+    display: inline-block;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0,  #100E19 100%);
+}
+
+.contentCoroulsel_wrapper {
+    margin-top: 25px;
+}
+.contentScrollbar {
+    height: 6px;
+    background-color: #F9255D;
+}
+.swiperImage {
+    width: 150px;
+    height: 225px;
+    border-radius: 10px;
+}
+
